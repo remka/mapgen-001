@@ -37,9 +37,9 @@ var makeBiome = function(e) {
   } else if (e < 0.8) {
     return ['TOUNDRA', '#86a18a'];
   } else if (e < 0.9) {
-    return ['SNOW', '#bbbbaa'];
+    return ['COLDISH', '#bbbbaa'];
   } else {
-    return ['SNOWEST', '#ffffff'];
+    return ['SNOW', '#ffffff'];
   }
 };
 
