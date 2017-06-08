@@ -3,8 +3,8 @@
 // Constants
 var tileW = 10;
 var tileH = 10;
-var mapWidth = 160;
-var mapHeight = 100;
+var mapWidth = 120;
+var mapHeight = 120;
 
 var drawMode = 'canvas'; // 'dom' or 'canvas'
 
@@ -28,13 +28,13 @@ var makeBiome = function(e) {
   } else if (e < 0.4) {
     return ['BEACH', '#d2b98b'];
   } else if (e < 0.5) {
-    return ['FOREST', '#88ab55'];
+    return ['FOREST', '#c9d29b'];
   } else if (e < 0.6) {
     return ['SAVANNAH', '#88ab55'];
   } else if (e < 0.7) {
     return ['DESERT', '#327755'];
   } else if (e < 0.8) {
-    return ['DESERT', '#bbbbaa'];
+    return ['TOUNDRA', '#bbbbaa'];
   } else {
     return ['SNOW', '#dedee3'];
   }
