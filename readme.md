@@ -1,3 +1,5 @@
+<img src="https://preview.ibb.co/hufedF/Screen_Shot_2017_06_08_at_4_51_30_PM.png" alt="Screen_Shot_2017_06_08_at_4_51_30_PM">
+
 ## About this
 
 Simple terrain generation test based on simplex noise.  
