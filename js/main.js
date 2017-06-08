@@ -7,6 +7,7 @@ var mapWidth = 120;
 var mapHeight = 120;
 
 var drawMode = 'canvas'; // 'dom' or 'canvas'
+var viewMode = 'biomes'; // 'biomes' or 'height'
 
 // Variables
 var gen;
@@ -34,9 +35,11 @@ var makeBiome = function(e) {
   } else if (e < 0.7) {
     return ['DESERT', '#327755'];
   } else if (e < 0.8) {
-    return ['TOUNDRA', '#bbbbaa'];
+    return ['TOUNDRA', '#86a18a'];
+  } else if (e < 0.9) {
+    return ['SNOW', '#bbbbaa'];
   } else {
-    return ['SNOW', '#dedee3'];
+    return ['SNOWEST', '#ffffff'];
   }
 };
 
